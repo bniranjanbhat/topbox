@@ -7,7 +7,7 @@ setup(
     description='Backend Take Home Test',
     url='topbox.io',
     install_requires=[
-        'bson==0.5.10',
+        # 'bson==0.5.10',
         'cachetools==4.1.1',
         'flask==1.1.2',
         'pymongo==3.10.1',

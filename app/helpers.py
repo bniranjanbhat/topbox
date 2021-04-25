@@ -10,3 +10,5 @@ def mongo_client(environment_variable='MONGO_URI'):
 
     mongo_uri = os.environ.get(environment_variable)
     return pymongo.MongoClient(mongo_uri).get_database()
+
+
